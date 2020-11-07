@@ -1,5 +1,5 @@
 {
-  "homepage": "http://riyasheoran.github.io/wallstreet",
+  "homepage": "https://riyasheoran.github.io/wallstreet",
   "name": "wallstreet",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +32,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "predeploy": "npm sun build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "REACT_APP_BACKEND_URL=http://localhost:3001 REACT_APP_API_URL=https://cloud.iexapis.com/v1/stock react-scripts start",
     "start:both": "concurrently  \"yarn start\" \"node backend/app.js\" ",
