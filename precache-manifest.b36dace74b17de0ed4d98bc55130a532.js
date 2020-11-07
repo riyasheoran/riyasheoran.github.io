@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/wallstreet/static/js/runtime~main.2d5f33fd.js"
   },
   {
-    "revision": "ac3406b170921e91a5949023073f0c1e",
+    "revision": "3ccec68b75187c115b5ddee421812046",
     "url": "/wallstreet/index.html"
   }
 ];
